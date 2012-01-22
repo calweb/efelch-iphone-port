@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'No Kill Kitties' target in the 'No Kill Kitties' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
