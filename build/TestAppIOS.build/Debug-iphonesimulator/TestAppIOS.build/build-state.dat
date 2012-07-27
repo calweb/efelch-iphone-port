@@ -1,0 +1,618 @@
+TTestAppIOS
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Info.plist TestAppIOS/TestAppIOS-Info.plist
+cPhaseScriptExecution "Touch www folder" /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Script-304B58A110DAC018002A0835.sh
+cCpResource www cordova/../build/TestAppIOS.app/www
+cCpResource /Users/calvinwebster/Documents/CordovaLib/VERSION cordova/../build/TestAppIOS.app/VERSION
+cCopyPlistFile /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Cordova.plist TestAppIOS/Resources/../Cordova.plist
+cCpResource TestAppIOS/Resources/icons/icon-72.png cordova/../build/TestAppIOS.app/icon-72.png
+cCpResource TestAppIOS/Resources/icons/icon.png cordova/../build/TestAppIOS.app/icon.png
+cCpResource TestAppIOS/Resources/icons/icon@2x.png cordova/../build/TestAppIOS.app/icon@2x.png
+cCpResource TestAppIOS/Resources/Capture.bundle cordova/../build/TestAppIOS.app/Capture.bundle
+cCopyStringsFile /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/en.lproj/Localizable.strings TestAppIOS/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/es.lproj/Localizable.strings TestAppIOS/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/MainViewController.xib
+cCopyStringsFile /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/de.lproj/Localizable.strings TestAppIOS/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/se.lproj/Localizable.strings TestAppIOS/Resources/se.lproj/Localizable.strings
+cCpResource TestAppIOS/Resources/splash/Default-Landscape@2x~ipad.png cordova/../build/TestAppIOS.app/Default-Landscape@2x~ipad.png
+cCpResource TestAppIOS/Resources/splash/Default-Landscape~ipad.png cordova/../build/TestAppIOS.app/Default-Landscape~ipad.png
+cCpResource TestAppIOS/Resources/splash/Default-Portrait@2x~ipad.png cordova/../build/TestAppIOS.app/Default-Portrait@2x~ipad.png
+cCpResource TestAppIOS/Resources/splash/Default-Portrait~ipad.png cordova/../build/TestAppIOS.app/Default-Portrait~ipad.png
+cCpResource TestAppIOS/Resources/splash/Default@2x~iphone.png cordova/../build/TestAppIOS.app/Default@2x~iphone.png
+cCpResource TestAppIOS/Resources/splash/Default~iphone.png cordova/../build/TestAppIOS.app/Default~iphone.png
+cProcessPCH /var/folders/wl/2976vvb56_7dp6hpjvl6mtb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestAppIOS-Prefix-ezhnzvgggqlhmlekwldplcomwveb/TestAppIOS-Prefix.pch.pth TestAppIOS/TestAppIOS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/main.o /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/AppDelegate.o /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/MainViewController.o /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/TestAppIOS normal i386
+cGenerateDSYMFile /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app.dSYM /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/TestAppIOS
+cTouch /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk
+c000000004F453DF80000000000000110
+t1329937912
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000005011E18A0000000000182900
+t1343349130
+s1583360
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c000000005011E1880000000000095860
+t1343349128
+s612448
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c000000005011E1880000000000169880
+t1343349128
+s1480832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005011E18A00000000002FDC30
+t1343349130
+s3136560
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000005011E18A00000000002051E0
+t1343349130
+s2118112
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005011E18B0000000000244490
+t1343349131
+s2376848
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000005011E18B0000000000089510
+t1343349131
+s562448
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c000000005011E18B0000000000069670
+t1343349131
+s431728
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005011E18C0000000000353830
+t1343349132
+s3487792
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c000000005011E1920000000000243A90
+t1343349138
+s2374288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000005011E19200000000000998D0
+t1343349138
+s628944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005011E19200000000001AB190
+t1343349138
+s1749392
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000005011E193000000000006C8A0
+t1343349139
+s444576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005011E1950000000000905E40
+t1343349141
+s9461312
+
+N/Users/calvinwebster/Documents/CordovaLib/VERSION
+c000000005011966F0000000000000005
+t1343329903
+s5
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/AppDelegate.m
+c000000005011E83C0000000000001338
+t1343350844
+s4920
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/MainViewController.m
+c000000005011E83C0000000000001001
+t1343350844
+s4097
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/MainViewController.xib
+c000000005011E8370000000000001759
+t1343350839
+s5977
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/../Cordova.plist
+c000000005011E837000000000000094C
+t1343350839
+s2380
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/Capture.bundle
+c000000005011E83800000000000002EC
+t1343350840
+s748
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/de.lproj/Localizable.strings
+c000000005011E8380000000000000485
+t1343350840
+s1157
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/en.lproj/Localizable.strings
+c000000005011E8380000000000000470
+t1343350840
+s1136
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/es.lproj/Localizable.strings
+c000000005011E838000000000000047D
+t1343350840
+s1149
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/icons/icon-72.png
+c000000005011E8380000000000001350
+t1343350840
+s4944
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/icons/icon.png
+c000000005011E8380000000000000F3E
+t1343350840
+s3902
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/icons/icon@2x.png
+c000000005011E8380000000000001EBD
+t1343350840
+s7869
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/se.lproj/Localizable.strings
+c000000005011E8380000000000000471
+t1343350840
+s1137
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/splash/Default-Landscape@2x~ipad.png
+c000000005011E8380000000000176888
+t1343350840
+s1534088
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/splash/Default-Landscape~ipad.png
+c000000005011E83800000000000674B7
+t1343350840
+s423095
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/splash/Default-Portrait@2x~ipad.png
+c000000005011E83900000000001892C2
+t1343350841
+s1610434
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/splash/Default-Portrait~ipad.png
+c000000005011E8390000000000066F23
+t1343350841
+s421667
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/splash/Default@2x~iphone.png
+c000000005011E8390000000000055981
+t1343350841
+s350593
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/splash/Default~iphone.png
+c000000005011E8390000000000016EC9
+t1343350841
+s93897
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/TestAppIOS-Prefix.pch
+c000000005011E83D00000000000003C5
+t1343350845
+s965
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/main.m
+c000000005011E83D0000000000000493
+t1343350845
+s1171
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/TestAppIOS.LinkFileList
+c000000005011E8CC00000000000001B9
+t1343350988
+s441
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Script-304B58A110DAC018002A0835.sh
+c000000005011E8CC0000000000000027
+t1343350988
+s39
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/build/libCordova.a
+c000000005011E8CC000000000027C748
+t1343350988
+s2606920
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app.dSYM
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Capture.bundle
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Cordova.plist
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Default~iphone.png
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Info.plist
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/MainViewController.nib
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/PkgInfo
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/TestAppIOS
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/VERSION
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/icon-72.png
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/icon.png
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/icon@2x.png
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/www
+t2
+s0
+
+N/Users/calvinwebster/Documents/gitstuff/testappIOS/www
+c000000005011E83C0000000000000176
+t1343350844
+s374
+
+N/var/folders/wl/2976vvb56_7dp6hpjvl6mtb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestAppIOS-Prefix-ezhnzvgggqlhmlekwldplcomwveb/TestAppIOS-Prefix.pch.pth
+t2
+s0
+
+NTestAppIOS/TestAppIOS-Info.plist
+c000000005011E83D00000000000009CA
+t1343350845
+s2506
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies889cd64c20c2b541^2654d84c20c2b541^---0#1#0#--18"Check dependencies36"D0E65D6C-5963-459E-BD8D-2F6A0928DA9D-
+
+CCompileC build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/AppDelegate.o /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365043792.743368
+e365043793.123591
+r1
+xCompileC
+xbuild/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/AppDelegate.o
+x/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/AppDelegate.m:77:25: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]
+o    self.viewController.invokeString = invokeString;
+o                        ^
+o1 warning generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/AppDelegate.me773be5020c2b541^44a31f5120c2b541^-257"/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/AppDelegate.m:77:25: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]    self.viewController.invokeString = invokeString;                        ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@28"'invokeString' is deprecated-365043793#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@99"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/AppDelegate.m0000000000000000^76#24#76#24#2545#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@99"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/AppDelegate.m0000000000000000^4069"CompileC build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/AppDelegate.o TestAppIOS/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/TestAppIOS-generated-files.hmap -I/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/TestAppIOS-own-target-headers.hmap -I/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/TestAppIOS-all-target-headers.hmap -iquote /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/TestAppIOS-project-headers.hmap -I/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/include -I/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/usr/local/lib/include -I/Users/calvinwebster/Documents/gitstuff/testappIOS/build/UninstalledProducts/include -I/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build -I/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/DerivedSources/i386 -I/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/DerivedSources -F/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build -include /var/folders/wl/2976vvb56_7dp6hpjvl6mtb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestAppIOS-Prefix-ezhnzvgggqlhmlekwldplcomwveb/TestAppIOS-Prefix.pch -MMD -MT dependencies -MF /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/AppDelegate.dia -c /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/AppDelegate.m -o /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/AppDelegate.o36"116E981E-9530-43C4-8019-B52AF28E764A-
+
+CCompileC build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/MainViewController.o /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365043792.744006
+e365043793.123333
+r1
+xCompileC
+xbuild/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/MainViewController.o
+x/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/MainViewController.m:108:15: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]
+o     if (self.invokeString)
+o              ^
+o/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/MainViewController.m:112:93: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]
+o        NSString* jsString = [NSString stringWithFormat:@"var invokeString = \"%@\";", self.invokeString];
+o                                                                                            ^
+o2 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/MainViewController.m809abe5020c2b541^5c921f5120c2b541^-597"/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/MainViewController.m:108:15: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]     if (self.invokeString)              ^/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/MainViewController.m:112:93: warning: 'invokeString' is deprecated [-Wdeprecated-declarations]        NSString* jsString = [NSString stringWithFormat:@"var invokeString = \"%@\";", self.invokeString];                                                                                            ^2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@28"'invokeString' is deprecated-365043793#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@106"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/MainViewController.m0000000000000000^107#14#107#14#2854#0#12"Deprecations--2@28"'invokeString' is deprecated-365043793#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@106"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/MainViewController.m0000000000000000^111#92#111#92#3264#0#12"Deprecations--0#0#0#-19%DVTDocumentLocation4@106"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/MainViewController.m0000000000000000^4111"CompileC build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/MainViewController.o TestAppIOS/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/TestAppIOS-generated-files.hmap -I/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/TestAppIOS-own-target-headers.hmap -I/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/TestAppIOS-all-target-headers.hmap -iquote /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/TestAppIOS-project-headers.hmap -I/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/include -I/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/usr/local/lib/include -I/Users/calvinwebster/Documents/gitstuff/testappIOS/build/UninstalledProducts/include -I/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build -I/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/DerivedSources/i386 -I/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/DerivedSources -F/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build -include /var/folders/wl/2976vvb56_7dp6hpjvl6mtb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestAppIOS-Prefix-ezhnzvgggqlhmlekwldplcomwveb/TestAppIOS-Prefix.pch -MMD -MT dependencies -MF /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/MainViewController.dia -c /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/MainViewController.m -o /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/MainViewController.o36"08B9429E-8378-4A37-84FA-6F23BFC02658-
+
+CCompileC build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/main.o /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365043792.743362
+e365043793.037766
+r1
+xCompileC
+xbuild/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/main.o
+x/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/main.m3a74be5020c2b541^08ab095120c2b541^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/main.m0000000000000000^4011"CompileC build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/main.o TestAppIOS/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/TestAppIOS-generated-files.hmap -I/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/TestAppIOS-own-target-headers.hmap -I/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/TestAppIOS-all-target-headers.hmap -iquote /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/TestAppIOS-project-headers.hmap -I/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/include -I/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/usr/local/lib/include -I/Users/calvinwebster/Documents/gitstuff/testappIOS/build/UninstalledProducts/include -I/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build -I/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/DerivedSources/i386 -I/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/DerivedSources -F/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build -include /var/folders/wl/2976vvb56_7dp6hpjvl6mtb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestAppIOS-Prefix-ezhnzvgggqlhmlekwldplcomwveb/TestAppIOS-Prefix.pch -MMD -MT dependencies -MF /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/main.dia -c /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/main.m -o /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/main.o36"72013998-B67A-4E06-97C2-FCE4AE2B91AC-
+
+CCompileXIB /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/MainViewController.xib
+s365043789.124238
+e365043790.031960
+r1
+xCompileXIB
+x/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/MainViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compiling /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/MainViewController.xibfa0c204d20c2b541^882e084e20c2b541^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/MainViewController.xib0000000000000000^1278"CompileXIB TestAppIOS/Classes/MainViewController.xib    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/MainViewController.nib /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk36"92F8CCB3-CA92-40A1-B449-02AB19120CC4-
+
+CCopyPlistFile /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Cordova.plist TestAppIOS/Resources/../Cordova.plist
+s365043788.889917
+e365043789.125052
+r1
+xCopyPlistFile
+x/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Cordova.plist
+xTestAppIOS/Resources/../Cordova.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy TestAppIOS/Resources/../Cordova.plist51f9e34c20c2b541^4f05204d20c2b541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/../Cordova.plist0000000000000000^853"CopyPlistFile cordova/../build/TestAppIOS.app/Cordova.plist TestAppIOS/Resources/../Cordova.plist    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    builtin-copyPlist --convert binary1 --outdir /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app -- TestAppIOS/Resources/../Cordova.plist36"90510923-928E-4E34-BCF5-CE3ADC2F327A-
+
+CCopyStringsFile /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/de.lproj/Localizable.strings TestAppIOS/Resources/de.lproj/Localizable.strings
+s365043789.124546
+e365043789.276636
+r1
+xCopyStringsFile
+x/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/de.lproj/Localizable.strings
+xTestAppIOS/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy TestAppIOS/Resources/de.lproj/Localizable.strings412b204d20c2b541^6fd4464d20c2b541^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/de.lproj/Localizable.strings0000000000000000^944"CopyStringsFile cordova/../build/TestAppIOS.app/de.lproj/Localizable.strings TestAppIOS/Resources/de.lproj/Localizable.strings    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/de.lproj -- TestAppIOS/Resources/de.lproj/Localizable.strings36"391A718C-F0F7-4BD3-989D-23F8075A18C9-
+
+CCopyStringsFile /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/en.lproj/Localizable.strings TestAppIOS/Resources/en.lproj/Localizable.strings
+s365043788.890617
+e365043789.125573
+r1
+xCopyStringsFile
+x/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/en.lproj/Localizable.strings
+xTestAppIOS/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy TestAppIOS/Resources/en.lproj/Localizable.strings732be44c20c2b541^cc26204d20c2b541^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/en.lproj/Localizable.strings0000000000000000^944"CopyStringsFile cordova/../build/TestAppIOS.app/en.lproj/Localizable.strings TestAppIOS/Resources/en.lproj/Localizable.strings    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/en.lproj -- TestAppIOS/Resources/en.lproj/Localizable.strings36"5DC01EEE-E271-4010-8AF1-7D314F4FCE62-
+
+CCopyStringsFile /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/es.lproj/Localizable.strings TestAppIOS/Resources/es.lproj/Localizable.strings
+s365043788.893073
+e365043789.125603
+r1
+xCopyStringsFile
+x/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/es.lproj/Localizable.strings
+xTestAppIOS/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy TestAppIOS/Resources/es.lproj/Localizable.strings30bae44c20c2b541^952b204d20c2b541^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/es.lproj/Localizable.strings0000000000000000^944"CopyStringsFile cordova/../build/TestAppIOS.app/es.lproj/Localizable.strings TestAppIOS/Resources/es.lproj/Localizable.strings    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/es.lproj -- TestAppIOS/Resources/es.lproj/Localizable.strings36"1C65EC42-5226-401A-9E82-5D2F8A407C0A-
+
+CCopyStringsFile /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/se.lproj/Localizable.strings TestAppIOS/Resources/se.lproj/Localizable.strings
+s365043789.124926
+e365043789.276715
+r1
+xCopyStringsFile
+x/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/se.lproj/Localizable.strings
+xTestAppIOS/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy TestAppIOS/Resources/se.lproj/Localizable.stringse543204d20c2b541^5ad9464d20c2b541^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/se.lproj/Localizable.strings0000000000000000^944"CopyStringsFile cordova/../build/TestAppIOS.app/se.lproj/Localizable.strings TestAppIOS/Resources/se.lproj/Localizable.strings    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/se.lproj -- TestAppIOS/Resources/se.lproj/Localizable.strings36"A731CACA-00E7-4EDF-B764-374E36FF6C44-
+
+CCpResource /Users/calvinwebster/Documents/CordovaLib/VERSION cordova/../build/TestAppIOS.app/VERSION
+s365043788.889227
+e365043788.891892
+r1
+xCpResource
+x/Users/calvinwebster/Documents/CordovaLib/VERSION
+xcordova/../build/TestAppIOS.app/VERSION
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy cordova/../build/TestAppIOS.app/VERSION8acde34c20c2b541^c153e44c20c2b541^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/VERSION000000000080d041^928"CpResource /Users/calvinwebster/Documents/CordovaLib/VERSION cordova/../build/TestAppIOS.app/VERSION    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/calvinwebster/Documents/CordovaLib/VERSION /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app36"CD2251E2-BD75-4A4E-AC2B-3CF9146BBA9C-
+
+CCpResource TestAppIOS/Resources/Capture.bundle cordova/../build/TestAppIOS.app/Capture.bundle
+s365043788.890112
+e365043790.782390
+r1
+xCpResource
+xTestAppIOS/Resources/Capture.bundle
+xcordova/../build/TestAppIOS.app/Capture.bundle
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy cordova/../build/TestAppIOS.app/Capture.bundleb708e44c20c2b541^e44bc84e20c2b541^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Capture.bundle000000000080d041^958"CpResource TestAppIOS/Resources/Capture.bundle cordova/../build/TestAppIOS.app/Capture.bundle    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/Capture.bundle /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app36"77414973-B772-44D0-B327-D54CF9591037-
+
+CCpResource TestAppIOS/Resources/icons/icon-72.png cordova/../build/TestAppIOS.app/icon-72.png
+s365043788.889927
+e365043789.122995
+r1
+xCpResource
+xTestAppIOS/Resources/icons/icon-72.png
+xcordova/../build/TestAppIOS.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy cordova/../build/TestAppIOS.app/icon-72.pnge3fae34c20c2b541^40851f4d20c2b541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/icon-72.png000000000080d041^961"CpResource TestAppIOS/Resources/icons/icon-72.png cordova/../build/TestAppIOS.app/icon-72.png    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/icons/icon-72.png /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app36"CDAFA5C1-A23C-43F4-99E9-947DE2C91945-
+
+CCpResource TestAppIOS/Resources/icons/icon.png cordova/../build/TestAppIOS.app/icon.png
+s365043788.890066
+e365043789.123087
+r1
+xCpResource
+xTestAppIOS/Resources/icons/icon.png
+xcordova/../build/TestAppIOS.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Copy cordova/../build/TestAppIOS.app/icon.pngadfbe34c20c2b541^fc8c1f4d20c2b541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/icon.png000000000080d041^952"CpResource TestAppIOS/Resources/icons/icon.png cordova/../build/TestAppIOS.app/icon.png    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/icons/icon.png /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app36"57D038EE-669F-4A9C-B971-4415DCC61629-
+
+CCpResource TestAppIOS/Resources/icons/icon@2x.png cordova/../build/TestAppIOS.app/icon@2x.png
+s365043788.890076
+e365043789.122884
+r1
+xCpResource
+xTestAppIOS/Resources/icons/icon@2x.png
+xcordova/../build/TestAppIOS.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Copy cordova/../build/TestAppIOS.app/icon@2x.pngac03e44c20c2b541^6c771f4d20c2b541^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/icon@2x.png000000000080d041^967"CpResource "TestAppIOS/Resources/icons/icon@2x.png" "cordova/../build/TestAppIOS.app/icon@2x.png"    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/icons/icon@2x.png" /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app36"A7F7AE77-A6F1-4A92-B7B2-876543015306-
+
+CCpResource TestAppIOS/Resources/splash/Default-Landscape@2x~ipad.png cordova/../build/TestAppIOS.app/Default-Landscape@2x~ipad.png
+s365043789.126382
+e365043790.195215
+r1
+xCpResource
+xTestAppIOS/Resources/splash/Default-Landscape@2x~ipad.png
+xcordova/../build/TestAppIOS.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy cordova/../build/TestAppIOS.app/Default-Landscape@2x~ipad.png7e8d204d20c2b541^76fa314e20c2b541^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Default-Landscape@2x~ipad.png000000000080d041^1023"CpResource "TestAppIOS/Resources/splash/Default-Landscape@2x~ipad.png" "cordova/../build/TestAppIOS.app/Default-Landscape@2x~ipad.png"    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/splash/Default-Landscape@2x~ipad.png" /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app36"6CA8AC2B-C33B-4AE2-87B7-BDEB2259D141-
+
+CCpResource TestAppIOS/Resources/splash/Default-Landscape~ipad.png cordova/../build/TestAppIOS.app/Default-Landscape~ipad.png
+s365043789.126525
+e365043789.584017
+r1
+xCpResource
+xTestAppIOS/Resources/splash/Default-Landscape~ipad.png
+xcordova/../build/TestAppIOS.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy cordova/../build/TestAppIOS.app/Default-Landscape~ipad.png6b99204d20c2b541^1f83954d20c2b541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Default-Landscape~ipad.png000000000080d041^1014"CpResource "TestAppIOS/Resources/splash/Default-Landscape~ipad.png" "cordova/../build/TestAppIOS.app/Default-Landscape~ipad.png"    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/splash/Default-Landscape~ipad.png" /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app36"962FA9D8-929F-49C3-A11F-258AF81A3757-
+
+CCpResource TestAppIOS/Resources/splash/Default-Portrait@2x~ipad.png cordova/../build/TestAppIOS.app/Default-Portrait@2x~ipad.png
+s365043789.127098
+e365043790.205178
+r1
+xCpResource
+xTestAppIOS/Resources/splash/Default-Portrait@2x~ipad.png
+xcordova/../build/TestAppIOS.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy cordova/../build/TestAppIOS.app/Default-Portrait@2x~ipad.png66bd204d20c2b541^2387344e20c2b541^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Default-Portrait@2x~ipad.png000000000080d041^1020"CpResource "TestAppIOS/Resources/splash/Default-Portrait@2x~ipad.png" "cordova/../build/TestAppIOS.app/Default-Portrait@2x~ipad.png"    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/splash/Default-Portrait@2x~ipad.png" /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app36"BBAFB5BB-DDCC-4D51-92DD-928B19ACF853-
+
+CCpResource TestAppIOS/Resources/splash/Default-Portrait~ipad.png cordova/../build/TestAppIOS.app/Default-Portrait~ipad.png
+s365043789.277922
+e365043789.613992
+r1
+xCpResource
+xTestAppIOS/Resources/splash/Default-Portrait~ipad.png
+xcordova/../build/TestAppIOS.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy cordova/../build/TestAppIOS.app/Default-Portrait~ipad.png124e474d20c2b541^3c2f9d4d20c2b541^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Default-Portrait~ipad.png000000000080d041^1011"CpResource "TestAppIOS/Resources/splash/Default-Portrait~ipad.png" "cordova/../build/TestAppIOS.app/Default-Portrait~ipad.png"    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/splash/Default-Portrait~ipad.png" /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app36"A66C3C4F-3597-4C6F-913A-08806AC44882-
+
+CCpResource TestAppIOS/Resources/splash/Default@2x~iphone.png cordova/../build/TestAppIOS.app/Default@2x~iphone.png
+s365043789.277952
+e365043789.585007
+r1
+xCpResource
+xTestAppIOS/Resources/splash/Default@2x~iphone.png
+xcordova/../build/TestAppIOS.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy cordova/../build/TestAppIOS.app/Default@2x~iphone.png3d44474d20c2b541^cec3954d20c2b541^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Default@2x~iphone.png000000000080d041^999"CpResource "TestAppIOS/Resources/splash/Default@2x~iphone.png" "cordova/../build/TestAppIOS.app/Default@2x~iphone.png"    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/splash/Default@2x~iphone.png" /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app36"23AED107-DA86-4147-BF41-043279B2BDDA-
+
+CCpResource TestAppIOS/Resources/splash/Default~iphone.png cordova/../build/TestAppIOS.app/Default~iphone.png
+s365043789.585202
+e365043790.028841
+r1
+xCpResource
+xTestAppIOS/Resources/splash/Default~iphone.png
+xcordova/../build/TestAppIOS.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy cordova/../build/TestAppIOS.app/Default~iphone.png01f6954d20c2b541^2c63074e20c2b541^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Default~iphone.png000000000080d041^990"CpResource "TestAppIOS/Resources/splash/Default~iphone.png" "cordova/../build/TestAppIOS.app/Default~iphone.png"    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/Resources/splash/Default~iphone.png" /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app36"C67A2CBB-E3A0-42C2-8797-581ECA249936-
+
+CCpResource www cordova/../build/TestAppIOS.app/www
+s365043788.889198
+e365043792.381522
+r1
+xCpResource
+xwww
+xcordova/../build/TestAppIOS.app/www
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy cordova/../build/TestAppIOS.app/www68cde34c20c2b541^cdac615020c2b541^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/www000000000080d041^883"CpResource www cordova/../build/TestAppIOS.app/www    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/calvinwebster/Documents/gitstuff/testappIOS/www /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app36"54D39F65-791B-42F3-BDA8-A507C4E03ABB-
+
+CGenerateDSYMFile /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app.dSYM /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/TestAppIOS
+s365043795.956437
+e365043796.916049
+r1
+xGenerateDSYMFile
+x/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app.dSYM
+x/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/TestAppIOS
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Generating /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app.dSYMb1f9f45320c2b541^2c83ea5420c2b541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app.dSYM000000000080d041^964"GenerateDSYMFile cordova/../build/TestAppIOS.app.dSYM cordova/../build/TestAppIOS.app/TestAppIOS    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/TestAppIOS -o /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app.dSYM36"A94DB217-10C7-43BB-B99B-44A274F4B2B6-
+
+CLd /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/TestAppIOS normal i386
+s365043793.131109
+e365043795.949445
+r1
+xLd
+x/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/TestAppIOS
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Link /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/TestAppIOS3db6215120c2b541^9d0ff35320c2b541^---0#0#0#--2028"Ld cordova/../build/TestAppIOS.app/TestAppIOS normal i386    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -L/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build -F/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build -filelist /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/TestAppIOS.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C -fobjc-link-runtime -Xlinker -no_implicit_dylibs -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 /Users/calvinwebster/Documents/gitstuff/testappIOS/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework CoreLocation -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -o /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/TestAppIOS36"5A21FDAC-3F8F-49B3-A2A8-27E2E5C77A3A-
+
+CPhaseScriptExecution "Touch www folder" /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Script-304B58A110DAC018002A0835.sh
+s365043788.864413
+e365043788.880635
+r1
+xPhaseScriptExecution
+xTouch www folder
+x/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Script-304B58A110DAC018002A0835.sh
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Run custom shell script 'Touch www folder'a1f8dd4c20c2b541^3b71e14c20c2b541^---0#0#0#--20966"PhaseScriptExecution "Touch www folder" build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Script-304B58A110DAC018002A0835.sh    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER calvinwebster    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS/build    setenv BUILD_ROOT /Users/calvinwebster/Documents/gitstuff/testappIOS/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build    setenv CACHE_ROOT /var/folders/wl/2976vvb56_7dp6hpjvl6mtb80000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/wl/2976vvb56_7dp6hpjvl6mtb80000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/wl/2976vvb56_7dp6hpjvl6mtb80000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build    setenv CONFIGURATION_TEMP_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH TestAppIOS.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/calvinwebster/Documents/CordovaLib    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH TestAppIOS.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/TestAppIOS.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME TestAppIOS.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH TestAppIOS.app/Executables    setenv EXECUTABLE_FOLDER_PATH TestAppIOS.app    setenv EXECUTABLE_NAME TestAppIOS    setenv EXECUTABLE_PATH TestAppIOS.app/TestAppIOS    setenv FILE_LIST /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH TestAppIOS.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME TestAppIOS.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER TestAppIOS/TestAppIOS-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/include\" \"/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/usr/local/lib/include\" \"/Users/calvinwebster/Documents/gitstuff/testappIOS/build/UninstalledProducts/include\" \"/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE TestAppIOS/TestAppIOS-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH TestAppIOS.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH TestAppIOS.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/TestAppIOS.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER calvinwebster    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/TestAppIOS.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH TestAppIOS.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/TestAppIOS-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal/i386/TestAppIOS.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH TestAppIOS.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11E53    setenv MAC_OS_X_VERSION_ACTUAL 1074    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0704    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Objects-normal    setenv OBJROOT /Users/calvinwebster/Documents/gitstuff/testappIOS/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -all_load -Obj-C"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH TestAppIOS.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/PkgInfo    setenv PKGINFO_PATH TestAppIOS.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 50100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH TestAppIOS.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH TestAppIOS.app/PrivateHeaders    setenv PRODUCT_NAME TestAppIOS    setenv PRODUCT_SETTINGS_PATH /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/TestAppIOS-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT TestAppIOS    setenv PROJECT_DERIVED_FILE_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/DerivedSources    setenv PROJECT_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv PROJECT_FILE_PATH /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS.xcodeproj    setenv PROJECT_NAME TestAppIOS    setenv PROJECT_TEMP_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build    setenv PUBLIC_HEADERS_FOLDER_PATH TestAppIOS.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH TestAppIOS.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk    setenv SDK_NAME iphonesimulator5.1    setenv SDK_PRODUCT_BUILD_VERSION 9B176    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH TestAppIOS.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/wl/2976vvb56_7dp6hpjvl6mtb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH TestAppIOS.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv SRCROOT /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/calvinwebster/Documents/gitstuff/testappIOS/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME TestAppIOS    setenv TARGET_BUILD_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build    setenv TARGET_NAME TestAppIOS    setenv TARGET_TEMP_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build    setenv TEMP_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build    setenv TEMP_FILES_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build    setenv TEMP_FILE_DIR /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build    setenv TEMP_ROOT /Users/calvinwebster/Documents/gitstuff/testappIOS/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH TestAppIOS.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER calvinwebster    setenv USER_APPS_DIR /Users/calvinwebster/Applications    setenv USER_LIBRARY_DIR /Users/calvinwebster/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH TestAppIOS.app/version.plist    setenv VERSION_INFO_BUILDER calvinwebster    setenv VERSION_INFO_FILE TestAppIOS_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:TestAppIOS  PROJECT:TestAppIOS-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME TestAppIOS.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4F250    setenv XCODE_VERSION_ACTUAL 0440    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0440    setenv YACC yacc    /bin/sh -c /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/Script-304B58A110DAC018002A0835.sh36"52A37C56-84C9-4EB9-AAE6-D03C46DD810E-
+
+CProcessInfoPlistFile /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Info.plist TestAppIOS/TestAppIOS-Info.plist
+s365043788.850877
+e365043788.856735
+r1
+xProcessInfoPlistFile
+x/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Info.plist
+xTestAppIOS/TestAppIOS-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process TestAppIOS/TestAppIOS-Info.plist4cfcd94c20c2b541^b553db4c20c2b541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/TestAppIOS-Info.plist0000000000000000^1003"ProcessInfoPlistFile cordova/../build/TestAppIOS.app/Info.plist TestAppIOS/TestAppIOS-Info.plist    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    builtin-infoPlistUtility TestAppIOS/TestAppIOS-Info.plist -genpkginfo /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app/Info.plist36"C3BA7919-DAE8-46BD-B651-D2B71EE25FDD-
+
+CProcessPCH /var/folders/wl/2976vvb56_7dp6hpjvl6mtb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestAppIOS-Prefix-ezhnzvgggqlhmlekwldplcomwveb/TestAppIOS-Prefix.pch.pth TestAppIOS/TestAppIOS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s365043792.391276
+e365043792.736514
+r1
+xProcessPCH
+x/var/folders/wl/2976vvb56_7dp6hpjvl6mtb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestAppIOS-Prefix-ezhnzvgggqlhmlekwldplcomwveb/TestAppIOS-Prefix.pch.pth
+xTestAppIOS/TestAppIOS-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile TestAppIOS/TestAppIOS-Prefix.pcha452645020c2b541^a48cbc5020c2b541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/TestAppIOS-Prefix.pch0000000000000000^4033"ProcessPCH /var/folders/wl/2976vvb56_7dp6hpjvl6mtb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestAppIOS-Prefix-ezhnzvgggqlhmlekwldplcomwveb/TestAppIOS-Prefix.pch.pth TestAppIOS/TestAppIOS-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-sign-compare -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator5.1.sdk -fexceptions -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.6 -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -D__IPHONE_OS_VERSION_MIN_REQUIRED=40200 -iquote /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/TestAppIOS-generated-files.hmap -I/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/TestAppIOS-own-target-headers.hmap -I/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/TestAppIOS-all-target-headers.hmap -iquote /Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/TestAppIOS-project-headers.hmap -I/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/include -I/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/usr/local/lib/include -I/Users/calvinwebster/Documents/gitstuff/testappIOS/build/UninstalledProducts/include -I/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build -I/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/DerivedSources/i386 -I/Users/calvinwebster/Documents/gitstuff/testappIOS/build/TestAppIOS.build/Debug-iphonesimulator/TestAppIOS.build/DerivedSources -F/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build --serialize-diagnostics /var/folders/wl/2976vvb56_7dp6hpjvl6mtb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestAppIOS-Prefix-ezhnzvgggqlhmlekwldplcomwveb/TestAppIOS-Prefix.pch.dia -c /Users/calvinwebster/Documents/gitstuff/testappIOS/TestAppIOS/TestAppIOS-Prefix.pch -o /var/folders/wl/2976vvb56_7dp6hpjvl6mtb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestAppIOS-Prefix-ezhnzvgggqlhmlekwldplcomwveb/TestAppIOS-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/wl/2976vvb56_7dp6hpjvl6mtb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/TestAppIOS-Prefix-ezhnzvgggqlhmlekwldplcomwveb/TestAppIOS-Prefix.pch.d36"E50620F9-0565-489F-9A45-AC2B55A31510-
+
+CTouch /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app
+s365043796.924190
+e365043796.928897
+r1
+xTouch
+x/Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Touch /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app31b2ec5420c2b541^d9cced5420c2b541^---0#0#0#--725"Touch cordova/../build/TestAppIOS.app    cd /Users/calvinwebster/Documents/gitstuff/testappIOS    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/calvinwebster/springsource/maven-2.2.1.RELEASE/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home:/Users/calvinwebster/Oracle/Middleware/wlserver_10.3:-Xmx512m:/Users/calvinwebster/.rvm/bin:/opt/oracle/app/oracle/product/10.2.0/db_1/bin:/Users/calvinwebster/Downloads/play-1.2.4"    /usr/bin/touch -c /Users/calvinwebster/Documents/gitstuff/testappIOS/cordova/../build/TestAppIOS.app36"09305F88-6097-41DD-96FC-9DAB2D994D51-
+
